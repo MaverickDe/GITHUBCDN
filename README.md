@@ -47,12 +47,17 @@ You can also use Jsdelivr but using jsdelivr, you file gotten from the cdn is no
 
 5. Assign a src attribute to the srcipt tag with a src attribute using the url below
 
+                https://cdn.jsdelivr.net/gh/MaverickDe/GITHUBCDN@main/githubcdn.js
+
             
 
 
 ```
 
 
+
+
+![Screenshot 2022-12-15 024531](https://user-images.githubusercontent.com/100746581/207753899-f25813db-bbe1-4e87-a849-336010176c22.png)
 
 ## Note
 Using this method your CDN file is always goung to update when you update your corresponding repo files
