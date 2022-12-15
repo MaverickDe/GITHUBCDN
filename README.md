@@ -5,12 +5,12 @@ GITHUB CDN
 ```
 
 
-```bash
+
 This projects helps to incoperate github as a CDN
 
-You can also use Jsdelivr but using jsdelivr, you file gotten from the cdn is not always updated when you update your corresponding github repo
+You can also use Jsdelivr but using jsdelivr, your file gotten from the cdn is not always updated when you update your corresponding github repo
 
-```
+
 
 
 ## How to use
@@ -20,7 +20,7 @@ You can also use Jsdelivr but using jsdelivr, you file gotten from the cdn is no
         
         </script>
 
-2. In that script tag define a variable called github to a list
+2. In that script tag define a variable called githubcdn to a list
         <script>
         let githubcdn = []
         
@@ -38,14 +38,14 @@ You can also use Jsdelivr but using jsdelivr, you file gotten from the cdn is no
                 let githubcdn = [MaverickDe/acetoolscms/main/kwikertools.js]
         
               </script>
-4. create a new script tag also where you would love to import your repo and assign it  an id using the forma below
+4. create a new script tag also where you would love to import your repo and assign it  an id using the format below
 
             <script id="githubcdn_[github user name]/[github repo name]/[branch]/[path to file]"></script>
 
             real example below
             <script id="githubcdn__MaverickDe/acetoolscms/main/kwikertools.js"></script>
 
-5. Assign a src attribute to the srcipt tag with a src attribute using the url below
+5. Assign a src attribute to the script tag with a src attribute using the url below
 
                 https://cdn.jsdelivr.net/gh/MaverickDe/GITHUBCDN@main/githubcdn.js
 
